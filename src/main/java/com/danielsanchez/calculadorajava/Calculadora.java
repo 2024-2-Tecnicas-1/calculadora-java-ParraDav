@@ -32,7 +32,7 @@ public class Calculadora {
                 break;
             case '^':
                 //Operación potencia:
-                respuesta = numero1 ^ numero2;
+                respuesta = (double) Math.pow(numero1, numero2);
                 break;
             // TODO: DEBES CREAR AQUÍ LOS CASES PARA LA OPERACIÓN DE LA POTENCIA Y EL MÓDULO.
                 
